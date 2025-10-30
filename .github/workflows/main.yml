@@ -21,4 +21,4 @@ jobs:
           server-dir: '/'
           protocol: 'ftp'
           port: 21
-          security: false
+          security: 'loose'
