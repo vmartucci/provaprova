@@ -18,3 +18,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: './'   # Se vuoi deployare tutto il repository
+          server-dir: '/'
+          protocol: 'ftp'
+          port: 21
+          security: false
